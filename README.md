@@ -1,6 +1,6 @@
 # MTSN-Spot-ME-MaE
 
-This is the code repository for the submitted paper <b>MTSN: A Multi-Temporal Stream Network for Spotting Facial Macro- and Micro-Expression with Hard and Soft Pseudo-labels </b> into ACMMM MEGC 2022.
+This is the code repository for the submitted paper <b>MTSN: A Multi-Temporal Stream Network for Spotting Facial Macro- and Micro-Expression with Hard and Soft Pseudo-labels </b>.
 
 ## How to run the code
 
