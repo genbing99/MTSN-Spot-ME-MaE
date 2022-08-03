@@ -79,6 +79,6 @@ def test(dataset_name, final_subjects, final_videos, dataset, X_all, X1_all, bat
             macro_total_detected += 1
         
     end = time.time()
-    print('Total time taken for training & testing: ' + str(end-start) + 's')
+    print('Total time taken for testing: ' + str(end-start) + 's')
     f.close()
     return result_final, micro_total_detected, macro_total_detected

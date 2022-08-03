@@ -53,5 +53,3 @@ def init_weights(m):
         nn.init.xavier_uniform_(m.weight)
         nn.init.zeros_(m.bias)
         
-# model = MTSN().cuda()
-# summary(model, [(1,28,28),(1,28,28),(1,28,28),(1,28,28),(1,28,28),(1,28,28)])
