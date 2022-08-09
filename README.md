@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1Cn4rux-Hwrt6E1LWO3VL3ddNqOwmgP71/view?usp=shari
 
 <b>The link is hidden at the moment but will be made available soon. </b>
 <!--
-https://drive.google.com/file/d/1o9596ESoihgX5JxQF97hqgy8C2SRTDH4/view?usp=sharing
+https://drive.google.com/file/d/1mE9TQ50J6Iq4vN0-59fU-2aKNulTf2L2/view?usp=sharing
 -->
   
 <b>Step 3)</b> Place the folder (megc2021-processed-data) accordingly: <br>
