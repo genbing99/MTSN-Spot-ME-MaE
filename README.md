@@ -1,6 +1,7 @@
 # MTSN-Spot-ME-MaE
 
-This is the code repository for the submitted paper <b>MTSN: A Multi-Temporal Stream Network for Spotting Facial Macro- and Micro-Expression with Hard and Soft Pseudo-labels</b>.
+This is the code repository for the FME 2022 accepted paper: <br> 
+<b>MTSN: A Multi-Temporal Stream Network for Spotting Facial Macro- and Micro-Expression with Hard and Soft Pseudo-labels</b>.
 
 ## Test on MEGC 2022 unseen datasets
 
@@ -60,4 +61,17 @@ https://drive.google.com/file/d/1mE9TQ50J6Iq4vN0-59fU-2aKNulTf2L2/view?usp=shari
 If you have issue installing torch, run this: <br>
 ``` pip install torch===1.5.0 torchvision===0.6.0 torchsummary==1.5.1 -f https://download.pytorch.org/whl/torch_stable.html ```
   
+## Link to research paper
+
+If you find this work useful, please cite the paper:
+https://dl.acm.org/doi/abs/10.1145/3552465.3555040
+
+@inproceedings{liong2022mtsn, <br>
+  title={MTSN: A Multi-Temporal Stream Network for Spotting Facial Macro-and Micro-Expression with Hard and Soft Pseudo-labels}, <br>
+  author={Liong, Gen Bing and Liong, Sze-Teng and See, John and Chan, Chee-Seng}, <br>
+  booktitle={Proceedings of the 2nd Workshop on Facial Micro-Expression: Advanced Techniques for Multi-Modal Facial Expression Analysis}, <br>
+  pages={3--10}, <br>
+  year={2022} <br>
+} <br>
+
 ##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
