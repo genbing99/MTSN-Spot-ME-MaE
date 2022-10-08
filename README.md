@@ -3,6 +3,13 @@
 This is the code repository for the FME 2022 accepted paper: <br> 
 <b>MTSN: A Multi-Temporal Stream Network for Spotting Facial Macro- and Micro-Expression with Hard and Soft Pseudo-labels</b>.
 
+## Network
+<img src='images/network.png' width=600 height=350>
+
+## Results
+<img src='images/result_megc2022.png' width=900 height=150>
+<img src='images/result_megc2021.png' width=900 height=400>
+
 ## Test on MEGC 2022 unseen datasets
 
 <b>Step 1)</b> Installation of packages using pip
