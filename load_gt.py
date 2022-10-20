@@ -38,8 +38,11 @@ def load_excel(dataset_name):
         
     return codeFinal
 
-def load_label(subjects, subjectsVideos, codeFinal):
-    dataset_expression_type = 'micro-expression'
+def load_label(dataset_name, subjects, subjectsVideos, codeFinal):
+    if dataset_name == 'CASME_sq':
+        dataset_expression_type = 'micro-expression'
+    else:
+        dataset_expression_type = 'Micro - 1/2'
         
     exp = []
     vid_need = []

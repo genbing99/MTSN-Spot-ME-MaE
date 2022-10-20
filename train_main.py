@@ -18,7 +18,7 @@ def main(config):
     print('\n ------ Loading Excel ------')
     codeFinal = load_excel(dataset_name)
     print('\n ------ Loading Ground Truth From Excel ------')
-    final_subjects, final_videos, final_samples, final_exp = load_label(final_subjects, final_videos, codeFinal) 
+    final_subjects, final_videos, final_samples, final_exp = load_label(dataset_name, final_subjects, final_videos, codeFinal) 
 
     # Spotting Pseudo-labeling
     print('\n ------ Pseudo-Labeling ------')
