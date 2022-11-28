@@ -79,7 +79,7 @@ def train(dataset_name, X, X1, Y, Y1, epochs, lr_classifier, batch_size, ratio):
             yhat = model(x1,x2,x3,x4,x5,x6).view(-1)
             loss1 = loss_fn(yhat, y)
             loss2 = loss_fn(yhat, y1)
-            loss = 0.7 * loss1 + 0.3 * loss2
+            loss = 0.7 * loss1 + 0.3 * loss1
             loss.backward()
             optimizer.step()
             train_loss += loss.data.item()

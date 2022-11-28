@@ -113,7 +113,7 @@ def spotting(dataset_name, final_subjects, final_videos, dataset, result, subjec
         peaks_macro, _ = find_peaks(score_plot_macro, height=macro_threshold, distance=peak_macro_dis)
         for peak in peaks_macro:
             start, peak, end = detectInterval(score_plot_macro, peak, macro_left_dis, macro_right_dis, macro_threshold)
-            if end-start > macro_min and end-start < macro_max and ( score_plot_micro[peak] > 0.95 or (score_plot_macro[peak] > score_plot_macro[start] and score_plot_macro[peak] > score_plot_macro[end])):
+            if end-start > macro_min and end-start < macro_max and ( score_plot_macro[peak] > 0.95 or (score_plot_macro[peak] > score_plot_macro[start] and score_plot_macro[peak] > score_plot_macro[end])):
                 macro_detected.append([start, peak, end])
                     
         micro_detected = checkPeak(micro_detected, macro_detected, score_plot_micro, score_plot_macro, dif_threshold, k_micro)
